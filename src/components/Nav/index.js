@@ -19,8 +19,7 @@ class Nav extends Component {
    }
 /* <ReactMarkdown  source={"hi"}/>*/
    render() {
-    const {homepage, about, projects} = this.props
-    console.log(about[0])
+
     return (
 
      <div className="navigation">
