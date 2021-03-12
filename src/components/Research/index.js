@@ -7,7 +7,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-// import {Header, Releases, Footer, About} from '../';
+import {Nav} from '../';
 
 class Research extends Component {
   constructor(props) {
@@ -39,6 +39,7 @@ class Research extends Component {
     return (
 
      <div className="App-header Homepage">
+     <Nav></Nav>
         {researches}
       </div>
       

@@ -7,6 +7,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import {Nav} from '../';
 // import {Header, Releases, Footer, About} from '../';
 
 class About extends Component {
@@ -24,6 +25,7 @@ class About extends Component {
     return (
 
      <div className="App-header Homepage">
+     <Nav></Nav>
         {about[0] &&
           <>
            <div><ReactMarkdown source={about[0].fields.Mission}/></div>
