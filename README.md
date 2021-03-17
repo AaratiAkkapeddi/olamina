@@ -49,3 +49,5 @@ If you need to create a new component, the file workflow goes something like thi
 2. inside the subfolder, create your index.js and style.css
 3. make sure you are exporting your component inside `src/components/index.js`
 
+## Airtable/Database structure 
+coming soon
