@@ -12,8 +12,10 @@
 3. You need netlify credentials to access the server settings.
 4. You need access to this github to make changes to the website code. 
 
-## Quick notes on the netlify site & main branch
-The netlify site currently lives here: https://olamina.netlify.app/. 
+## Quick notes on the netlify site
+The netlify site currently lives here: https://olamina.netlify.app/. The plan we are on for netlify is free. I think this should be fine for our needs. This means we won't need server space from The New School. We just need to have our domain pointed to netlify.
+
+## Quick notes on the main branch
 Also note that we use `main` for the primary branch as opposed to `master`. 
 Github officially made the switch from `master` to `main` last year. The use of the terms "master" and "slave" in computing is harmful and points to underlying issues of racism and inequality in computer science. Language matters and this change is small but so important. 
 
