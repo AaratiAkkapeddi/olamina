@@ -12,8 +12,10 @@
 3. You need netlify credentials to access the server settings.
 4. You need access to this github to make changes to the website code. 
 
-## netlify site 
+## quick notes on the netlify site & main branch
 The netlify site currently lives here -> https://olamina.netlify.app/
+Also note that we use "main" for the primary branch as opposed to "master" 
+Github officially made the switch from "master" to "main" last year. The use of the terms "master" and "slave" in computing is harmful and points to underlying issues of racism and inequality in computer science. Language matters and this change is small but so important. 
 
 ## Basic commands to get up and running 
 
