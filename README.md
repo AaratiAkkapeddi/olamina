@@ -28,4 +28,19 @@ The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
 ## Folder structure 
-..updating this part soon...
+
+Most changes will happen within the `src` folder. That is where all of our components live. I think the favicon would be in the `public` folder, but other than this we shouldn't really be touching that folder too much.
+
+`App.js` inside of the src folder is where our routing happens. It is also where we read data from airtable within the componentDidMountFunction. Be basically create a fetch for each "tab" of the airtable spreadsheet and store the retrieved data inside the state to be passed through to different components. 
+
+`App.css` is where global styles live.
+
+The `components` folder is where most changes will occur. Each subfolder represents a component that's used as a page layout or in some cases a modular component shared across pages such as the navigation. Within each subfolder is an `index.js` file with the component code and a `style.css` file with the css styles pertaining to that component.
+
+Within the `components` folder there is also a top level `index.js` that exports all the components so that they can be imported in `App.js`
+
+If you need to create a new component, the file workflow goes something like this: 
+1. create the subfolder within the components folder.
+2. inside the subfolder, create your index.js and style.css
+3. make sure you are exporting your component inside `src/components/index.js`
+
