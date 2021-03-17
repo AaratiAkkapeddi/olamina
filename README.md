@@ -12,6 +12,9 @@
 3. You need netlify credentials to access the server settings.
 4. You need access to this github to make changes to the website code. 
 
+## netlify site 
+The netlify site currently lives here -> https://olamina.netlify.app/
+
 ## Basic commands to get up and running 
 
 ### `npm build`
