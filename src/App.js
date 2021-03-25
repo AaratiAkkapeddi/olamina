@@ -8,7 +8,7 @@ import {
   RouteComponentProps,
   useParams
 } from "react-router-dom";
-import './App.css';
+import './App.scss';
 import {Homepage, About, Research} from './components'
 const NoMatchPage = () => {
   return (

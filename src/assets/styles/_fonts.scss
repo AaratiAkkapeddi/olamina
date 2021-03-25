@@ -1,0 +1,116 @@
+
+@import "./variables";
+
+@font-face {
+	font-family: 'Till-Normal';
+	src: url('../fonts/Till-Normal.eot');
+	src: url('../fonts/Till-Normal.eot?#iefix') format('embedded-opentype'),
+        url("../fonts/Till-Normal.otf") format("opentype"),
+		url('../fonts/Till-Normal.woff') format('woff'),
+		url('../fonts/Till-Normal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+p {
+    font-family: Till-Normal;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  	font-style: normal;
+  	text-transform: uppercase;
+  	line-height: 1.3em;
+}
+
+
+h1 {
+	font-size: 36px;
+	line-height: 48px;
+	@media (min-width: 768px) { 
+	font-size: 60px;
+	line-height: 65px;
+	}
+	color: #000000;
+	letter-spacing: -0.5px;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 24px;
+	@media (min-width: 768px) { 
+	font-size: 40px;
+	}
+	color: #000000;
+	letter-spacing: -0.09px;
+}
+
+h3 {
+	font-size: 20px;
+	@media (min-width: 768px) { 
+	font-size: 32px;
+	}
+	color: #000000;
+	letter-spacing: 0;
+}
+
+h4 {
+	font-size: 18px;
+	@media (min-width: 768px) { 
+	font-size: 22px;
+	}
+	color: #000000;
+	letter-spacing: 0;
+}
+
+h5 {
+	font-size: 16px;
+	color: #000000;
+	letter-spacing: 0.5px;
+	padding: 5px 9px;
+}
+
+
+h6 {
+	font-size: 16px;
+	color: #000000;
+	letter-spacing: 0.5px;
+}
+
+
+.body-1,
+.body-1 p,
+.body-1 span {
+	font-family: Till-Normal;
+	font-weight: 300;
+	font-size: 38px;
+	color: #000000;
+	letter-spacing: -0.09px;
+    line-height: 1.3em;	
+}
+
+.body-2,
+.body-2 p,
+.body-2 span {
+	font-family: Till-Normal;
+	font-size: 24px;
+	color: #000000;
+	letter-spacing: -0.09px;
+}
+
+.body-3, .body-3 p,
+.body-3 span {
+	font-family: Till-Normal;
+	font-size: 16px;
+	color: #212121;
+}
+
+.caption {
+	font-size:16px;
+	color: #a3a3a3;
+}

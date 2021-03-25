@@ -33,7 +33,9 @@ class Home extends Component {
       }
       if(contains){
         return(
+        
         <div className="card">
+          <h1>Test</h1>
             <ReactMarkdown source={x.Title}/>
             <img src={x.fields.Thumbnail[0].url}/>
             <ReactMarkdown source={x.fields.ShortDescription}/>
