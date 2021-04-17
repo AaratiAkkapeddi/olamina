@@ -1,8 +1,14 @@
 @import "./assets/styles/variables";
 @import "./assets/styles/fonts";
-@import "./assets/styles/test";
+@import "./assets/styles/home";
+@import "./assets/styles/header";
 
 
-body{
+html, body{
   margin:0;
+  padding: 0;
+}
+
+ul {
+  margin-top: 0;
 }

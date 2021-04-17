@@ -23,10 +23,15 @@ class Nav extends Component {
     return (
 
      <div className="navigation">
-        <a href="/home">Home</a>
-        <a href="/about">About</a>
-        <a href="/Research">Research</a>
+        <div className="navLeft">
+
+        </div>
+        <button className="button button--dirty">Home</button>
+        <button className="button">️️About</button>
+        <button className="button">Research</button>
       </div>
+
+    
       
 
 

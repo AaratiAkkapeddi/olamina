@@ -28,7 +28,8 @@ class App extends React.Component {
         projects: []
     };
   }
-
+  //
+  // 
   componentDidMount() {
       fetch('https://api.airtable.com/v0/appKu09OChpFPRnnc/Homepage?api_key='+process.env.REACT_APP_AIRTABLE_API_KEY)
         .then(res => res.json())
