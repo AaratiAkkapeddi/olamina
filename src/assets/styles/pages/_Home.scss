@@ -1,0 +1,28 @@
+
+h1 {
+  //color: blue;
+}
+
+.Homepage {
+  //background-color: $ola-light-green;
+}
+
+.HomeIntro {
+  /*
+  background-image: url('../img/home_bg_0.svg');
+  background-size: 200%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  */
+  display: flex;
+  flex-direction: column;
+  //justify-content: center;
+  align-items: center;
+  .HomeTitle {
+      color: #fff;
+      position:absolute;
+      top: 35%;
+      font-size: 88px;
+  }
+  
+}

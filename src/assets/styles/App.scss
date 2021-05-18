@@ -1,0 +1,46 @@
+
+/*****UTILS*****/
+@import './utils/Fonts';
+@import './utils/Variables';
+@import './utils/Normalize';
+
+/*****MIXINS*****/
+@import './mixins/Buttons';
+
+/*****COMPONENTS*****/
+//Pages
+@import './pages/Home'; //also includes styles for #landing-hero
+@import './pages/Research';
+@import './pages/About';
+
+//Header
+@import './components/Header';
+//Footer
+@import './components/Footer';
+
+
+//Arrow Buttons
+@import './components/BackButton';
+
+
+
+
+html, body{
+  margin:0;
+  padding: 0;
+}
+
+ul {
+  margin-top: 0;
+}
+
+/******************/
+/*** Base Styles ***/
+/******************/
+
+body {
+  background: $ola-light-green;
+  color: $ola-dark-green;
+  font-family: sans-serif;
+  text-rendering: geometricPrecision;
+}

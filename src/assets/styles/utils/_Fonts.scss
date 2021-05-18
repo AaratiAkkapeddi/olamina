@@ -1,13 +1,11 @@
 
-@import "./variables";
-
 @font-face {
 	font-family: 'Till-Normal';
-	src: url('../fonts/Till-Normal.eot');
-	src: url('../fonts/Till-Normal.eot?#iefix') format('embedded-opentype'),
-        url("../fonts/Till-Normal.otf") format("opentype"),
-		url('../fonts/Till-Normal.woff') format('woff'),
-		url('../fonts/Till-Normal.ttf') format('truetype');
+	src: url('../../fonts/Till-Normal.eot');
+	src: url('../../fonts/Till-Normal.eot?#iefix') format('embedded-opentype'),
+        url("../../fonts/Till-Normal.otf") format("opentype"),
+		url('../../fonts/Till-Normal.woff') format('woff'),
+		url('../../fonts/Till-Normal.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
