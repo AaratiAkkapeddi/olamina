@@ -2,13 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 
-function Footer({ gradient = false }) {
+function Footer() {
   return (
-    <footer className={gradient ? "gradient" : ""}>
-      <nav>
-        <Link to="/about">about</Link>
-        <Link to="/research">research</Link>
-      </nav>
+    <footer className="footer">
+      <div className="footer-container">
+        <p className="body-2">Olamina Faction Copyright 2021</p>
+      </div>
     </footer>
   )
 }

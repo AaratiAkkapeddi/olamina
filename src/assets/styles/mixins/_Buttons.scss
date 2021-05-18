@@ -1,0 +1,12 @@
+.btn-0 {
+    border: 2px solid $ola-white;
+    background-color: transparent;
+    color: $ola-white;
+    font-weight: 900;
+    transition: color .3s ease-in-out, background-color .3s ease-in-out;
+    &:hover {
+        color: $ola-black-green;
+        background-color: rgba(255,255,255,.4);
+        transition: color .3s ease-in-out, background-color .3s ease-in-out;
+    }
+}

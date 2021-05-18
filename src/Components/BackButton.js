@@ -7,7 +7,7 @@ import backArrow from '../assets/img/back-arrow.svg'
 function BackButton() {
   return (
     <Link to="/" className="back-button">
-      <img src={backArrow} alt="click this button to go back to the homepage" />
+      {/* <img src={} alt="back to home" /> */}
       <h1>back</h1>
     </Link>
   )

@@ -26,3 +26,63 @@ h1 {
   }
   
 }
+/*********Landing**********/
+.landing {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  background-color: $ola-light-green;
+  border-radius: 100% 0% 73% 26% / 0% 0% 9% 8%;
+  .landing-title {
+      color: $ola-white;
+      font-size: 92px;
+  }
+}
+
+/*********Description**********/
+.landing-description {
+  height: 50vh;
+  background-color: $ola-white;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  p {
+    margin: 0 64px;
+    color: $ola-black-green;
+  }
+}
+
+/*********Research**********/
+.landing-research {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .landing-research-title {
+    color: $ola-black-green;
+  }
+  .landing-research-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 16px;
+    margin: 0 40px;
+    .landing-research-item {
+      .landing-research-item-img{
+        height: 240px;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+      }
+      .landing-research-item-msg {
+        margin-top: 24px;
+        text-align: center;
+      }
+    }
+  }
+}

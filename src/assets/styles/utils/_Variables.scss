@@ -7,10 +7,12 @@ $ola-black-green:         #4b4f43;
 $ola-lightgray: #c1c1c1;
 $ola-gray: #959595;
 $ola-darkgray: #3c3c3c;
+$ola-white: #fff;
 
 /*** RESPONSIVE BREAKPOINTS ***/
-$mobile: 320px;
-$mobile-horizontal: 815px; //required to make some things look okay on horizontal iPhone X's
-$tablet: 770px;
-$desktop: 1024px; //also, tablet-horizontal
-$desktop-wide: 1440px; 
+$xs: 320px;
+$sm: 576px; //required to make some things look okay on horizontal iPhone X's
+$md: 768px;
+$lg: 992px;
+$xl: 1200px; //also, tablet-horizontal
+$xxl: 1440px; 

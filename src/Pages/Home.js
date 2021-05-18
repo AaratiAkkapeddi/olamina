@@ -1,23 +1,29 @@
-import React, {useEffect, useContext} from 'react'
-import {GlobalState} from '../App'
+import React, {useEffect, useContext} from 'react';
+import {GlobalState} from '../App';
 import ReactMarkdown from 'react-markdown';
 
 /* COMPONENTS */
-import Footer from '../Components/Footer'
+import Header from '../Components/Header';
+import Landing from '../Components/Landing';
+import LandingDescription from '../Components/LandingDescription';
+import LandingResearch from '../Components/LandingResearch';
+import Contact from '../Components/Contact';
+import Footer from '../Components/Footer';
 
 function Home() {
 
   const {state} = useContext(GlobalState);
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [])
+
 
   return (
     <div id="home">
-      <Footer />
-      <h1>Test</h1>
-      <div>
+      
+      <Header />
+      <Landing />
+      <LandingDescription />
+      <LandingResearch />
+      {/* <div>
         {
           state.categories.length > 0 && state.categories.map((block) => {
             return (
@@ -28,7 +34,9 @@ function Home() {
             )
           })
         }
-      </div>
+      </div> */}
+      <Contact />
+      <Footer />
     </div>
   )
 }

@@ -1,1 +1,14 @@
 
+.footer {
+    height: 6vh;
+    background-color: $ola-black-green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .footer-container {
+        p {
+            color: $ola-white;
+            margin: 0;
+        }
+    }
+}

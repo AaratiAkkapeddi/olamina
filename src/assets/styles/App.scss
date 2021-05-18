@@ -1,22 +1,27 @@
 
 /*****UTILS*****/
-@import './utils/Fonts';
-@import './utils/Variables';
 @import './utils/Normalize';
+
+@import './utils/Variables';
+@import './utils/Fonts';
 
 /*****MIXINS*****/
 @import './mixins/Buttons';
 
-/*****COMPONENTS*****/
-//Pages
+/*****Pages*****/
 @import './pages/Home'; //also includes styles for #landing-hero
 @import './pages/Research';
 @import './pages/About';
 
+/*****COMPONENTS*****/
 //Header
 @import './components/Header';
 //Footer
 @import './components/Footer';
+
+@import './components/Landing';
+@import './components/Contact';
+
 
 
 //Arrow Buttons
@@ -39,7 +44,7 @@ ul {
 /******************/
 
 body {
-  background: $ola-light-green;
+  //background: $ola-light-green;
   color: $ola-dark-green;
   font-family: sans-serif;
   text-rendering: geometricPrecision;
