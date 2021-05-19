@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactMarkdown from "react-markdown";
+import {NavLink} from 'react-router-dom'
 import '../assets/styles/App.scss';
 import {
   BrowserRouter as Router,
@@ -25,9 +26,9 @@ class Header extends Component {
         <div className="navLeft">
 
         </div>
-        <Link className="button button--dirty" to="/">home</Link>
-        <Link className="button" to="/about">about</Link>
-        <Link className="button" to="/research">research</Link>
+        <NavLink className="button" activeClassName="button--dirty" exact to="/">home</NavLink>
+        <NavLink className="button" activeClassName="button--dirty" to="/about">about</NavLink>
+        <NavLink className="button" activeClassName="button--dirty" to="/research">research</NavLink>
       </div>
 
     

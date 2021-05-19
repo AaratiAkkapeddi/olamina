@@ -1,14 +1,18 @@
 
-.footer {
+.copyright {
     height: 6vh;
-    background-color: $ola-black-green;
+    background-color: $ola-light-green;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    .footer-container {
+    .copyright-container {
+        padding: 0 80px;
         p {
             color: $ola-white;
             margin: 0;
         }
+    }
+    &.home {
+        background-color: $ola-black-green;
     }
 }

@@ -10,3 +10,21 @@
         transition: color .3s ease-in-out, background-color .3s ease-in-out;
     }
 }
+
+.back-button {
+    display: block;
+    width: 20px;
+    text-decoration: none;
+    display: flex;
+    transition: transform 0.25s;
+    padding: 0 80px;
+    &:hover {
+      transform: translateX(-0.25rem);
+    }
+  
+    h1, h2, h3 {
+      margin-left: 1.25rem;
+      align-self: center;
+      color: $ola-white;
+    }
+  }

@@ -2,13 +2,13 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 /*** ASSETS ***/
-import backArrow from '../assets/img/back-arrow.svg'
+import Arrow from '../assets/img/back-arrow.svg'
 
 function BackButton() {
   return (
     <Link to="/" className="back-button">
-      {/* <img src={} alt="back to home" /> */}
-      <h1>back</h1>
+      <img src={Arrow} alt="back to home" />
+      <h3>back</h3>
     </Link>
   )
 }

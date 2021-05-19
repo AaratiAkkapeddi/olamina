@@ -1,6 +1,10 @@
 #about {
+    min-height: 95vh;
     background-color: $ola-light-green;
+    h1, h2, h3, h4, h5, p, div {
+        color: $ola-white;
+    }
     .about-content {
-        margin: 0 80px;
+        padding: 0 80px;
     }
 }

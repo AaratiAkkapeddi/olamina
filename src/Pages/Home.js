@@ -8,7 +8,7 @@ import Landing from '../Components/Landing';
 import LandingDescription from '../Components/LandingDescription';
 import LandingResearch from '../Components/LandingResearch';
 import Contact from '../Components/Contact';
-import Footer from '../Components/Footer';
+import Copyright from '../Components/Copyright';
 
 function Home() {
 
@@ -36,7 +36,7 @@ function Home() {
         }
       </div> */}
       <Contact />
-      <Footer />
+      <Copyright />
     </div>
   )
 }
