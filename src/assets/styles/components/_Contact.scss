@@ -5,13 +5,18 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 80px;
+  @include ola-padding-0;
   border-radius: 84% 10% 0% 0% / 16% 36% 0% 0%;
   .contact-top {
     margin-top: 80px;
     border-left: 2px solid $ola-white;
     border-bottom: 2px solid $ola-white;
     padding: 16px;
+    @media (max-width: $sm_) { 
+      p {
+        font-size: 20px;
+      }
+    }
   }
   .contact-mid {
     border-right: 2px solid $ola-white;
@@ -35,6 +40,9 @@
         flex-direction: row;
         position: relative;
         justify-content: end;
+        @media (max-width: $md_) { 
+          flex-direction: column;
+        }
       }
       
       .form-field {

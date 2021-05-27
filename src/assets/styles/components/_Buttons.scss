@@ -17,7 +17,7 @@
     text-decoration: none;
     display: flex;
     transition: transform 0.25s;
-    padding: 0 80px;
+    @include ola-padding-0;
     &:hover {
       transform: translateX(-0.25rem);
     }

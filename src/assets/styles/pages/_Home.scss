@@ -38,22 +38,42 @@ h1 {
   .landing-title {
       color: $ola-white;
       font-size: 92px;
+      @media (max-width: $lg_){
+        font-size: 80px;
+        text-align: center;
+      }
+      @media (max-width: $md_){
+        font-size: 64px;
+        text-align: center;
+      }
+      @media (max-width: $sm_){
+        font-size: 40px;
+        text-align: center;
+      }
   }
 }
 
 /*********Description**********/
 .landing-description {
-  height: 50vh;
+  min-height: 50vh;
   background-color: $ola-white;
   display: flex;
   text-align: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+  margin: 40px 0;
   p {
     margin: 0 80px;
     color: $ola-black-green;
+  }
+  @media (max-width: $sm_){
+    margin: 24px 0;
+    height: auto;
+    p {
+      font-size: 20px;
+      margin: 0 24px;
+    }
   }
 }
 
@@ -64,14 +84,20 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 40px 0;
   .landing-research-title {
     color: $ola-black-green;
+    @media (max-width: $sm_) { 
+     text-align: center;
+     margin: 24px 0;
+    }
   }
   .landing-research-content{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 16px;
     margin: 0 40px;
+    @include ola-margin-0;
     .landing-research-item {
       .landing-research-item-img{
         height: 240px;
@@ -85,5 +111,9 @@ h1 {
         color: $ola-black-green;
       }
     }
+    
   }
+  @media (max-width: $sm_) { 
+    margin: 24px 0;
+   }
 }

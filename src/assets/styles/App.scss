@@ -6,7 +6,7 @@
 @import './utils/Fonts';
 
 /*****MIXINS*****/
-@import './mixins/Buttons';
+@import './mixins/Spacing';
 
 /*****Pages*****/
 @import './pages/Home'; //also includes styles for #landing-hero
@@ -20,6 +20,7 @@
 @import './components/Footer';
 
 @import './components/Contact';
+@import './components/Buttons';
 
 
 html, body{

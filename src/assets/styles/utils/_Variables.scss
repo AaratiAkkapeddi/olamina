@@ -11,8 +11,15 @@ $ola-white: #fff;
 
 /*** RESPONSIVE BREAKPOINTS ***/
 $xs: 320px;
-$sm: 576px; //required to make some things look okay on horizontal iPhone X's
+$sm: 576px;
 $md: 768px;
 $lg: 992px;
-$xl: 1200px; //also, tablet-horizontal
+$xl: 1200px; 
 $xxl: 1440px; 
+
+$xs_: 319.99px;
+$sm_: 575.99px;
+$md_: 767.99px;
+$lg_: 991.99px;
+$xl_: 1199.99px; 
+$xxl_: 1439.99px; 

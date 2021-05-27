@@ -11,6 +11,13 @@
             color: $ola-white;
             margin: 0;
         }
+        @media (max-width: $sm_) { 
+            padding: 0;
+            p {
+                font-size: 16px;
+                text-align: center;
+            }
+        }
     }
     &.home {
         background-color: $ola-black-green;

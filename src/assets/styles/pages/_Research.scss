@@ -5,6 +5,6 @@
         color: $ola-white;
     }
     .research-content {
-        padding: 0 80px;
+        @include ola-padding-0;
     }
 }
